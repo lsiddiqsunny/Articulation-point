@@ -1,6 +1,6 @@
 In graph theory, a bi-connected component (also known as a <b>block or 2-connected component</b>) is a maximal bi-connected subgraph. Any connected graph decomposes into a tree of bi-connected components called the<b> block-cut tree</b> of the graph. The blocks are attached to each other at shared vertices called <b>cut vertices or articulation points</b>. Specifically,</b> a cut vertex is any vertex whose removal increases the number of connected components.</b>
 
-The classic sequential algorithm for computing bi-connected components in a connected undirected graph is due to <b> John Hopcroft and Robert Tarjan (1973).</b> It runs in <strong>linear time</strong>, and is based on <b> depth-first search.</b>
+The classic sequential algorithm for computing bi-connected components in a connected undirected graph is due to <b> John Hopcroft and Robert Tarjan (1973).</b> It runs in <strong>linear time</strong>, and is based on <b> depth-first search. </b>
 
 <strong>The idea is to run a depth-first search while maintaining the following information:</strong>
 
